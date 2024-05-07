@@ -1,30 +1,67 @@
-# React + TypeScript + Vite
+![Logo do Projeto](https://imgur.com/a/muRw4Qu)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# JobSearch
+A site for the people who is searching for a job
 
-Currently, two official plugins are available:
+[Visit the website](https://jobsearch.matheusariza25.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥Introduction
+This project was developed to share the services of a professional jobsearch page. It allows users to create a perfil and find jobs in any location. Also, it has a protect space for business edit the jobs and search for the best candidate;
 
-## Expanding the ESLint configuration
+## ⚙️Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* [Node.js](https://nodejs.org/en)
 
-- Configure the top-level `parserOptions` property like this:
+## 🔨Installation Guide
+You need to install the following libraries and dependencies for the project to function:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Step 1:
+Run the following code to clone the project
+```
+git clone https://github.com/Ariza25/jobsearch_frontend.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Step 2:
+Run the following code to install the necessary project libraries
+```
+npm install
+```
+
+Step 3:
+Run the following code to make changes in the development environment
+```
+npm run dev
+```
+
+Step 4:
+Run the following code to build and deploy to your preferred platform
+```
+npm run build
+```
+
+## 📦Technologies
+
+**frontend:**
+* [ReactJS](https://react.dev/)
+* [Vite](https://vitejs.dev/)
+* [Tailwind]
+
+**Database:**
+* Fake DataBase
+
+### 👷Contact
+
+[![Blog](https://img.shields.io/website?label=MatheusAriza.com&style=for-the-badge&url=https://matheusariza.com/)](https://matheusariza.com)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheusariza25/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mjsa.sanches25@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://web.whatsapp.com/send?phone=5543998068708)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)]()
+
+
+### 📄License
+
+This project is under the MIT license - check details [LICENSE](https://github.com/Ariza25/jobsearch_frontend/blob/main/LICENSE)
+
+### 💡Acknowledgments
+
+For support, send an email to: mjsa.sanches25@gmail.com
